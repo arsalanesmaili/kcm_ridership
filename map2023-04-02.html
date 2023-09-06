@@ -1,0 +1,1161 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_59b3a40ca97f681f431de6d2d5d819ae {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_59b3a40ca97f681f431de6d2d5d819ae" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_59b3a40ca97f681f431de6d2d5d819ae = L.map(
+                "map_59b3a40ca97f681f431de6d2d5d819ae",
+                {
+                    center: [47.702662, -122.32832],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 12,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_845d8dfdc4cae27d5fb35f8a2d278136 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca target=\"_blank\" href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_59b3a40ca97f681f431de6d2d5d819ae);
+        
+    
+            var marker_8c85989b9db7d1c7be86c82eae1a3890 = L.marker(
+                [47.591824, -122.327354],
+                {}
+            ).addTo(map_59b3a40ca97f681f431de6d2d5d819ae);
+        
+    
+            marker_8c85989b9db7d1c7be86c82eae1a3890.bindTooltip(
+                `<div>
+                     Stop ID: 99101
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d2af1e9d8356e5e36607bf7c922bcba5 = L.marker(
+                [47.464272, -122.288399],
+                {}
+            ).addTo(map_59b3a40ca97f681f431de6d2d5d819ae);
+        
+    
+            marker_d2af1e9d8356e5e36607bf7c922bcba5.bindTooltip(
+                `<div>
+                     Stop ID: 99900
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_e93e2abfecf59154d65e41463e46fef8 = L.polyline(
+                [[47.591824, -122.327354], [47.464272, -122.288399]],
+                {"bubblingMouseEvents": true, "color": "#bb76be", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#bb76be", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_59b3a40ca97f681f431de6d2d5d819ae);
+        
+    
+            poly_line_e93e2abfecf59154d65e41463e46fef8.bindTooltip(
+                `<div>
+                     Card ID: 3197199
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_cf798df318067d4c4a7d5519b3de9179 = L.marker(
+                [47.659875, -122.314194],
+                {}
+            ).addTo(map_59b3a40ca97f681f431de6d2d5d819ae);
+        
+    
+            marker_cf798df318067d4c4a7d5519b3de9179.bindTooltip(
+                `<div>
+                     Stop ID: 990001
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8cb02de1829a658ece0b397c159f924b = L.marker(
+                [47.61145, -122.337532],
+                {}
+            ).addTo(map_59b3a40ca97f681f431de6d2d5d819ae);
+        
+    
+            marker_8cb02de1829a658ece0b397c159f924b.bindTooltip(
+                `<div>
+                     Stop ID: 1108
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_ed5c8874b93687cb724d5227b1b8d1a1 = L.polyline(
+                [[47.659875, -122.314194], [47.61145, -122.337532]],
+                {"bubblingMouseEvents": true, "color": "#ae8c05", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#ae8c05", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_59b3a40ca97f681f431de6d2d5d819ae);
+        
+    
+            poly_line_ed5c8874b93687cb724d5227b1b8d1a1.bindTooltip(
+                `<div>
+                     Card ID: 3197429
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_0e0995ef042da1d5b785f90e11819e12 = L.marker(
+                [47.598438, -122.32782],
+                {}
+            ).addTo(map_59b3a40ca97f681f431de6d2d5d819ae);
+        
+    
+            marker_0e0995ef042da1d5b785f90e11819e12.bindTooltip(
+                `<div>
+                     Stop ID: 621
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5b2f81c0327ad89bac8d2eb6dff49e07 = L.marker(
+                [47.659875, -122.314194],
+                {}
+            ).addTo(map_59b3a40ca97f681f431de6d2d5d819ae);
+        
+    
+            marker_5b2f81c0327ad89bac8d2eb6dff49e07.bindTooltip(
+                `<div>
+                     Stop ID: 990001
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_78aeef0695b3fe59b2e851b6081b2b9e = L.polyline(
+                [[47.598438, -122.32782], [47.659875, -122.314194]],
+                {"bubblingMouseEvents": true, "color": "#ae8c05", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#ae8c05", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_59b3a40ca97f681f431de6d2d5d819ae);
+        
+    
+            poly_line_78aeef0695b3fe59b2e851b6081b2b9e.bindTooltip(
+                `<div>
+                     Card ID: 3197429
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2c1116cce95a16e89be2bad270a765d5 = L.marker(
+                [47.6219, -122.3517],
+                {}
+            ).addTo(map_59b3a40ca97f681f431de6d2d5d819ae);
+        
+    
+            marker_2c1116cce95a16e89be2bad270a765d5.bindTooltip(
+                `<div>
+                     Stop ID: WL
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2b79c11c5bf6ad049e837b62acab1c0d = L.marker(
+                [47.58657, -122.190251],
+                {}
+            ).addTo(map_59b3a40ca97f681f431de6d2d5d819ae);
+        
+    
+            marker_2b79c11c5bf6ad049e837b62acab1c0d.bindTooltip(
+                `<div>
+                     Stop ID: 84263
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_935c41a4393f161c9e0efaa9c4d4285e = L.polyline(
+                [[47.6219, -122.3517], [47.58657, -122.190251]],
+                {"bubblingMouseEvents": true, "color": "#7ea178", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#7ea178", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_59b3a40ca97f681f431de6d2d5d819ae);
+        
+    
+            poly_line_935c41a4393f161c9e0efaa9c4d4285e.bindTooltip(
+                `<div>
+                     Card ID: 3197574
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ba58024053da1655fadf15f0af8c36c1 = L.marker(
+                [47.6219, -122.3517],
+                {}
+            ).addTo(map_59b3a40ca97f681f431de6d2d5d819ae);
+        
+    
+            marker_ba58024053da1655fadf15f0af8c36c1.bindTooltip(
+                `<div>
+                     Stop ID: SC
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_df5d9ec3f590c1a46db49696d4c63013 = L.marker(
+                [47.6219, -122.3517],
+                {}
+            ).addTo(map_59b3a40ca97f681f431de6d2d5d819ae);
+        
+    
+            marker_df5d9ec3f590c1a46db49696d4c63013.bindTooltip(
+                `<div>
+                     Stop ID: WL
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_aa593e7a2a25d9251d1c0cd409fd0dae = L.polyline(
+                [[47.6219, -122.3517], [47.6219, -122.3517]],
+                {"bubblingMouseEvents": true, "color": "#7ea178", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#7ea178", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_59b3a40ca97f681f431de6d2d5d819ae);
+        
+    
+            poly_line_aa593e7a2a25d9251d1c0cd409fd0dae.bindTooltip(
+                `<div>
+                     Card ID: 3197574
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9db431ce4d1988e16bc3c3cd421bbe2c = L.marker(
+                [47.609183, -122.33627],
+                {}
+            ).addTo(map_59b3a40ca97f681f431de6d2d5d819ae);
+        
+    
+            marker_9db431ce4d1988e16bc3c3cd421bbe2c.bindTooltip(
+                `<div>
+                     Stop ID: 1230
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_80ee31280d5ba2525ef3c69f99e7f7a6 = L.marker(
+                [47.6219, -122.3517],
+                {}
+            ).addTo(map_59b3a40ca97f681f431de6d2d5d819ae);
+        
+    
+            marker_80ee31280d5ba2525ef3c69f99e7f7a6.bindTooltip(
+                `<div>
+                     Stop ID: SC
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_fc226b758b676b9229c34b4c98e0998f = L.polyline(
+                [[47.609183, -122.33627], [47.6219, -122.3517]],
+                {"bubblingMouseEvents": true, "color": "#7ea178", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#7ea178", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_59b3a40ca97f681f431de6d2d5d819ae);
+        
+    
+            poly_line_fc226b758b676b9229c34b4c98e0998f.bindTooltip(
+                `<div>
+                     Card ID: 3197574
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_03a2e88cedea8de2b2b33216e97ef867 = L.marker(
+                [47.480725, -122.208855],
+                {}
+            ).addTo(map_59b3a40ca97f681f431de6d2d5d819ae);
+        
+    
+            marker_03a2e88cedea8de2b2b33216e97ef867.bindTooltip(
+                `<div>
+                     Stop ID: 3061
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_25fcbf2fd4ab6cc9c3e546ddd4e94cd1 = L.marker(
+                [47.387213, -122.202146],
+                {}
+            ).addTo(map_59b3a40ca97f681f431de6d2d5d819ae);
+        
+    
+            marker_25fcbf2fd4ab6cc9c3e546ddd4e94cd1.bindTooltip(
+                `<div>
+                     Stop ID: 57130
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_8c4ffc2da4b03032d87ebf76fdca18ef = L.polyline(
+                [[47.480725, -122.208855], [47.387213, -122.202146]],
+                {"bubblingMouseEvents": true, "color": "#191447", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#191447", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_59b3a40ca97f681f431de6d2d5d819ae);
+        
+    
+            poly_line_8c4ffc2da4b03032d87ebf76fdca18ef.bindTooltip(
+                `<div>
+                     Card ID: 3197647
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_25668c250edfbe64a3567ae4e19ca7be = L.marker(
+                [47.615533, -122.194052],
+                {}
+            ).addTo(map_59b3a40ca97f681f431de6d2d5d819ae);
+        
+    
+            marker_25668c250edfbe64a3567ae4e19ca7be.bindTooltip(
+                `<div>
+                     Stop ID: 3564
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7fc97e6d8b8bee8b39617d8c506b620d = L.marker(
+                [47.480725, -122.208855],
+                {}
+            ).addTo(map_59b3a40ca97f681f431de6d2d5d819ae);
+        
+    
+            marker_7fc97e6d8b8bee8b39617d8c506b620d.bindTooltip(
+                `<div>
+                     Stop ID: 3061
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_26dca8bce0f496a6b6c8b918b71709af = L.polyline(
+                [[47.615533, -122.194052], [47.480725, -122.208855]],
+                {"bubblingMouseEvents": true, "color": "#191447", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#191447", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_59b3a40ca97f681f431de6d2d5d819ae);
+        
+    
+            poly_line_26dca8bce0f496a6b6c8b918b71709af.bindTooltip(
+                `<div>
+                     Card ID: 3197647
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ebae78f2796889e33f984f6b646051ed = L.marker(
+                [47.974815, -122.197673],
+                {}
+            ).addTo(map_59b3a40ca97f681f431de6d2d5d819ae);
+        
+    
+            marker_ebae78f2796889e33f984f6b646051ed.bindTooltip(
+                `<div>
+                     Stop ID: 2345
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f5af6a103a44b1f7ca0427f573cd4088 = L.marker(
+                [47.701968, -122.328446],
+                {}
+            ).addTo(map_59b3a40ca97f681f431de6d2d5d819ae);
+        
+    
+            marker_f5af6a103a44b1f7ca0427f573cd4088.bindTooltip(
+                `<div>
+                     Stop ID: 2192
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_02ddce5a0c74a944d9657241923a0820 = L.polyline(
+                [[47.974815, -122.197673], [47.701968, -122.328446]],
+                {"bubblingMouseEvents": true, "color": "#930f02", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#930f02", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_59b3a40ca97f681f431de6d2d5d819ae);
+        
+    
+            poly_line_02ddce5a0c74a944d9657241923a0820.bindTooltip(
+                `<div>
+                     Card ID: 3197742
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_0518df20aa40602f6a648e535746cf55 = L.marker(
+                [47.702662, -122.32832],
+                {}
+            ).addTo(map_59b3a40ca97f681f431de6d2d5d819ae);
+        
+    
+            marker_0518df20aa40602f6a648e535746cf55.bindTooltip(
+                `<div>
+                     Stop ID: 990005
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_0897605443c284714ddb0629b2c31aa7 = L.marker(
+                [47.974815, -122.197673],
+                {}
+            ).addTo(map_59b3a40ca97f681f431de6d2d5d819ae);
+        
+    
+            marker_0897605443c284714ddb0629b2c31aa7.bindTooltip(
+                `<div>
+                     Stop ID: 2345
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_2dc94df175135350559b3a61e73ef7da = L.polyline(
+                [[47.702662, -122.32832], [47.974815, -122.197673]],
+                {"bubblingMouseEvents": true, "color": "#930f02", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#930f02", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_59b3a40ca97f681f431de6d2d5d819ae);
+        
+    
+            poly_line_2dc94df175135350559b3a61e73ef7da.bindTooltip(
+                `<div>
+                     Card ID: 3197742
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1202321d182b3e2bbe2ae4dda369f9b4 = L.marker(
+                [47.602139, -122.331055],
+                {}
+            ).addTo(map_59b3a40ca97f681f431de6d2d5d819ae);
+        
+    
+            marker_1202321d182b3e2bbe2ae4dda369f9b4.bindTooltip(
+                `<div>
+                     Stop ID: 501
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_895071fff2ee42afe176afb1ff3fd843 = L.marker(
+                [47.659875, -122.314194],
+                {}
+            ).addTo(map_59b3a40ca97f681f431de6d2d5d819ae);
+        
+    
+            marker_895071fff2ee42afe176afb1ff3fd843.bindTooltip(
+                `<div>
+                     Stop ID: 990001
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_d5aa24b4a242f0100723138cf721b270 = L.polyline(
+                [[47.602139, -122.331055], [47.659875, -122.314194]],
+                {"bubblingMouseEvents": true, "color": "#a82da3", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#a82da3", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_59b3a40ca97f681f431de6d2d5d819ae);
+        
+    
+            poly_line_d5aa24b4a242f0100723138cf721b270.bindTooltip(
+                `<div>
+                     Card ID: 3197949
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3d2c4fa6f1ceeba9b9cc28c7c7e05f44 = L.marker(
+                [47.597702, -122.329456],
+                {}
+            ).addTo(map_59b3a40ca97f681f431de6d2d5d819ae);
+        
+    
+            marker_3d2c4fa6f1ceeba9b9cc28c7c7e05f44.bindTooltip(
+                `<div>
+                     Stop ID: S_KS
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e149b8a3ae9ddeac9dd04bbaa67ae9f8 = L.marker(
+                [47.201418, -122.244497],
+                {}
+            ).addTo(map_59b3a40ca97f681f431de6d2d5d819ae);
+        
+    
+            marker_e149b8a3ae9ddeac9dd04bbaa67ae9f8.bindTooltip(
+                `<div>
+                     Stop ID: S_SU_NB
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_fb828c9e8500738038e99f09a326c856 = L.polyline(
+                [[47.597702, -122.329456], [47.201418, -122.244497]],
+                {"bubblingMouseEvents": true, "color": "#475649", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#475649", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_59b3a40ca97f681f431de6d2d5d819ae);
+        
+    
+            poly_line_fb828c9e8500738038e99f09a326c856.bindTooltip(
+                `<div>
+                     Card ID: 3197996
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6696f19d59a7a30716994777b5d96e77 = L.marker(
+                [47.441392, -122.298477],
+                {}
+            ).addTo(map_59b3a40ca97f681f431de6d2d5d819ae);
+        
+    
+            marker_6696f19d59a7a30716994777b5d96e77.bindTooltip(
+                `<div>
+                     Stop ID: 3768
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b9f05b935120c3df3c083dabe4151d28 = L.marker(
+                [47.165083, -122.513063],
+                {}
+            ).addTo(map_59b3a40ca97f681f431de6d2d5d819ae);
+        
+    
+            marker_b9f05b935120c3df3c083dabe4151d28.bindTooltip(
+                `<div>
+                     Stop ID: 4228
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_40ccd419d8d0b91e07ecc770184ade7a = L.polyline(
+                [[47.441392, -122.298477], [47.165083, -122.513063]],
+                {"bubblingMouseEvents": true, "color": "#351f49", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#351f49", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_59b3a40ca97f681f431de6d2d5d819ae);
+        
+    
+            poly_line_40ccd419d8d0b91e07ecc770184ade7a.bindTooltip(
+                `<div>
+                     Card ID: 3198199
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f3b6ac42f45273a69ccd6b2dd5a971ca = L.marker(
+                [47.601538, -122.329836],
+                {}
+            ).addTo(map_59b3a40ca97f681f431de6d2d5d819ae);
+        
+    
+            marker_f3b6ac42f45273a69ccd6b2dd5a971ca.bindTooltip(
+                `<div>
+                     Stop ID: 1610
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5a644a2af9e4d57996a782eff669f42e = L.marker(
+                [47.503206, -122.335491],
+                {}
+            ).addTo(map_59b3a40ca97f681f431de6d2d5d819ae);
+        
+    
+            marker_5a644a2af9e4d57996a782eff669f42e.bindTooltip(
+                `<div>
+                     Stop ID: 47872
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_4de90cf4b1ddffbf03ace56076ef8c64 = L.polyline(
+                [[47.601538, -122.329836], [47.503206, -122.335491]],
+                {"bubblingMouseEvents": true, "color": "#9d360a", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#9d360a", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_59b3a40ca97f681f431de6d2d5d819ae);
+        
+    
+            poly_line_4de90cf4b1ddffbf03ace56076ef8c64.bindTooltip(
+                `<div>
+                     Card ID: 3198250
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_93155110c795da06b25ce7c6c307c113 = L.marker(
+                [47.774073, -122.34614],
+                {}
+            ).addTo(map_59b3a40ca97f681f431de6d2d5d819ae);
+        
+    
+            marker_93155110c795da06b25ce7c6c307c113.bindTooltip(
+                `<div>
+                     Stop ID: 75700
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e50db02448a712eab314a814677253f7 = L.marker(
+                [47.601538, -122.329836],
+                {}
+            ).addTo(map_59b3a40ca97f681f431de6d2d5d819ae);
+        
+    
+            marker_e50db02448a712eab314a814677253f7.bindTooltip(
+                `<div>
+                     Stop ID: 1610
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_72ec26d2af89743b7977567364521256 = L.polyline(
+                [[47.774073, -122.34614], [47.601538, -122.329836]],
+                {"bubblingMouseEvents": true, "color": "#9d360a", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#9d360a", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_59b3a40ca97f681f431de6d2d5d819ae);
+        
+    
+            poly_line_72ec26d2af89743b7977567364521256.bindTooltip(
+                `<div>
+                     Card ID: 3198250
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4a8450044ce9df6046fe3aef483b921c = L.marker(
+                [47.606613, -122.33491],
+                {}
+            ).addTo(map_59b3a40ca97f681f431de6d2d5d819ae);
+        
+    
+            marker_4a8450044ce9df6046fe3aef483b921c.bindTooltip(
+                `<div>
+                     Stop ID: 468
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c9a60178e16a299ee620b43634b80119 = L.marker(
+                [47.774073, -122.34614],
+                {}
+            ).addTo(map_59b3a40ca97f681f431de6d2d5d819ae);
+        
+    
+            marker_c9a60178e16a299ee620b43634b80119.bindTooltip(
+                `<div>
+                     Stop ID: 75700
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_8660f346dfc355f2039a845c2d41b171 = L.polyline(
+                [[47.606613, -122.33491], [47.774073, -122.34614]],
+                {"bubblingMouseEvents": true, "color": "#9d360a", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#9d360a", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_59b3a40ca97f681f431de6d2d5d819ae);
+        
+    
+            poly_line_8660f346dfc355f2039a845c2d41b171.bindTooltip(
+                `<div>
+                     Card ID: 3198250
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_71a5e20a33617fb8e37fa28318afd1f5 = L.marker(
+                [48.08743, -122.191425],
+                {}
+            ).addTo(map_59b3a40ca97f681f431de6d2d5d819ae);
+        
+    
+            marker_71a5e20a33617fb8e37fa28318afd1f5.bindTooltip(
+                `<div>
+                     Stop ID: 2503
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f0c87160125ad1f37275a6534ad5c148 = L.marker(
+                [48.061183, -122.167046],
+                {}
+            ).addTo(map_59b3a40ca97f681f431de6d2d5d819ae);
+        
+    
+            marker_f0c87160125ad1f37275a6534ad5c148.bindTooltip(
+                `<div>
+                     Stop ID: 416
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_c0e846f8b1ef1137050b8a64c9028af7 = L.polyline(
+                [[48.08743, -122.191425], [48.061183, -122.167046]],
+                {"bubblingMouseEvents": true, "color": "#613f5e", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#613f5e", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_59b3a40ca97f681f431de6d2d5d819ae);
+        
+    
+            poly_line_c0e846f8b1ef1137050b8a64c9028af7.bindTooltip(
+                `<div>
+                     Card ID: 3198263
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2b88de79c637fa6827ca3bfdcc63a9de = L.marker(
+                [47.591824, -122.327354],
+                {}
+            ).addTo(map_59b3a40ca97f681f431de6d2d5d819ae);
+        
+    
+            marker_2b88de79c637fa6827ca3bfdcc63a9de.bindTooltip(
+                `<div>
+                     Stop ID: 99101
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9f9fe3e13ea926947204bc3865cb95df = L.marker(
+                [47.702662, -122.32832],
+                {}
+            ).addTo(map_59b3a40ca97f681f431de6d2d5d819ae);
+        
+    
+            marker_9f9fe3e13ea926947204bc3865cb95df.bindTooltip(
+                `<div>
+                     Stop ID: 990005
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_b048c97c8cb843906dbb4a081cf9e003 = L.polyline(
+                [[47.591824, -122.327354], [47.702662, -122.32832]],
+                {"bubblingMouseEvents": true, "color": "#a98297", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#a98297", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_59b3a40ca97f681f431de6d2d5d819ae);
+        
+    
+            poly_line_b048c97c8cb843906dbb4a081cf9e003.bindTooltip(
+                `<div>
+                     Card ID: 3198350
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_aa7cd7c5eb3ca5566f3713e91a65891c = L.marker(
+                [47.659875, -122.314194],
+                {}
+            ).addTo(map_59b3a40ca97f681f431de6d2d5d819ae);
+        
+    
+            marker_aa7cd7c5eb3ca5566f3713e91a65891c.bindTooltip(
+                `<div>
+                     Stop ID: 990001
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a3348cd753c9394dfa94733216489426 = L.marker(
+                [47.522953, -122.279083],
+                {}
+            ).addTo(map_59b3a40ca97f681f431de6d2d5d819ae);
+        
+    
+            marker_a3348cd753c9394dfa94733216489426.bindTooltip(
+                `<div>
+                     Stop ID: 55578
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_a1c37cb3009e9994c0e18372cfe8a3d7 = L.polyline(
+                [[47.659875, -122.314194], [47.522953, -122.279083]],
+                {"bubblingMouseEvents": true, "color": "#868969", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#868969", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_59b3a40ca97f681f431de6d2d5d819ae);
+        
+    
+            poly_line_a1c37cb3009e9994c0e18372cfe8a3d7.bindTooltip(
+                `<div>
+                     Card ID: 3198623
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b0cf3c90b480d1c08d7b8be969f507d8 = L.marker(
+                [47.598438, -122.32782],
+                {}
+            ).addTo(map_59b3a40ca97f681f431de6d2d5d819ae);
+        
+    
+            marker_b0cf3c90b480d1c08d7b8be969f507d8.bindTooltip(
+                `<div>
+                     Stop ID: 621
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8562b3c4a82d828ec4ceaf0c7bc01aa4 = L.marker(
+                [47.659875, -122.314194],
+                {}
+            ).addTo(map_59b3a40ca97f681f431de6d2d5d819ae);
+        
+    
+            marker_8562b3c4a82d828ec4ceaf0c7bc01aa4.bindTooltip(
+                `<div>
+                     Stop ID: 990001
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_f9aff9f7f8ef181b82e14175707b626d = L.polyline(
+                [[47.598438, -122.32782], [47.659875, -122.314194]],
+                {"bubblingMouseEvents": true, "color": "#868969", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#868969", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_59b3a40ca97f681f431de6d2d5d819ae);
+        
+    
+            poly_line_f9aff9f7f8ef181b82e14175707b626d.bindTooltip(
+                `<div>
+                     Card ID: 3198623
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e7a79ed984764f3da04096dce9c9745b = L.marker(
+                [47.656516, -122.312173],
+                {}
+            ).addTo(map_59b3a40ca97f681f431de6d2d5d819ae);
+        
+    
+            marker_e7a79ed984764f3da04096dce9c9745b.bindTooltip(
+                `<div>
+                     Stop ID: 10914
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_26756ca35628dd6ae6867f71298c4028 = L.marker(
+                [47.663156, -122.301045],
+                {}
+            ).addTo(map_59b3a40ca97f681f431de6d2d5d819ae);
+        
+    
+            marker_26756ca35628dd6ae6867f71298c4028.bindTooltip(
+                `<div>
+                     Stop ID: 23925
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_56459d0ae957e74adbf16116afe92491 = L.polyline(
+                [[47.656516, -122.312173], [47.663156, -122.301045]],
+                {"bubblingMouseEvents": true, "color": "#7037a7", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#7037a7", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_59b3a40ca97f681f431de6d2d5d819ae);
+        
+    
+            poly_line_56459d0ae957e74adbf16116afe92491.bindTooltip(
+                `<div>
+                     Card ID: 3199635
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_93bf4d5181190195a585dc5fe1f82ad5 = L.marker(
+                [47.659833, -122.313823],
+                {}
+            ).addTo(map_59b3a40ca97f681f431de6d2d5d819ae);
+        
+    
+            marker_93bf4d5181190195a585dc5fe1f82ad5.bindTooltip(
+                `<div>
+                     Stop ID: 9587
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c1904a1476f5ad763a6f7ff13fedf382 = L.marker(
+                [47.66206, -122.353456],
+                {}
+            ).addTo(map_59b3a40ca97f681f431de6d2d5d819ae);
+        
+    
+            marker_c1904a1476f5ad763a6f7ff13fedf382.bindTooltip(
+                `<div>
+                     Stop ID: 29225
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_80f514e763a2880a54647550f42e3752 = L.polyline(
+                [[47.659833, -122.313823], [47.66206, -122.353456]],
+                {"bubblingMouseEvents": true, "color": "#3b3b1f", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3b3b1f", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_59b3a40ca97f681f431de6d2d5d819ae);
+        
+    
+            poly_line_80f514e763a2880a54647550f42e3752.bindTooltip(
+                `<div>
+                     Card ID: 3199689
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7e3f12d43bd091642ae3bd59cb5bcadd = L.marker(
+                [47.608243, -122.336485],
+                {}
+            ).addTo(map_59b3a40ca97f681f431de6d2d5d819ae);
+        
+    
+            marker_7e3f12d43bd091642ae3bd59cb5bcadd.bindTooltip(
+                `<div>
+                     Stop ID: 450
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_fbd800ca4579699884857681642e8d70 = L.marker(
+                [47.606248, -122.303248],
+                {}
+            ).addTo(map_59b3a40ca97f681f431de6d2d5d819ae);
+        
+    
+            marker_fbd800ca4579699884857681642e8d70.bindTooltip(
+                `<div>
+                     Stop ID: 12780
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_c3311339818ef6f6d4eff7c4a3e95613 = L.polyline(
+                [[47.608243, -122.336485], [47.606248, -122.303248]],
+                {"bubblingMouseEvents": true, "color": "#71344d", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#71344d", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_59b3a40ca97f681f431de6d2d5d819ae);
+        
+    
+            poly_line_c3311339818ef6f6d4eff7c4a3e95613.bindTooltip(
+                `<div>
+                     Card ID: 3199702
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_91610ee4822e66a5e193819410d5e4ff = L.marker(
+                [47.659875, -122.314194],
+                {}
+            ).addTo(map_59b3a40ca97f681f431de6d2d5d819ae);
+        
+    
+            marker_91610ee4822e66a5e193819410d5e4ff.bindTooltip(
+                `<div>
+                     Stop ID: 990001
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_bf8aec179bdae48bd11150c0e2389ec4 = L.marker(
+                [47.661318, -122.341548],
+                {}
+            ).addTo(map_59b3a40ca97f681f431de6d2d5d819ae);
+        
+    
+            marker_bf8aec179bdae48bd11150c0e2389ec4.bindTooltip(
+                `<div>
+                     Stop ID: 29231
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_4a1f411854a70f13c7cb1fbb814ba2f9 = L.polyline(
+                [[47.659875, -122.314194], [47.661318, -122.341548]],
+                {"bubblingMouseEvents": true, "color": "#897c40", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#897c40", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_59b3a40ca97f681f431de6d2d5d819ae);
+        
+    
+            poly_line_4a1f411854a70f13c7cb1fbb814ba2f9.bindTooltip(
+                `<div>
+                     Card ID: 3200356
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8661752b7541d83dbf362f2414d51c07 = L.marker(
+                [47.464272, -122.288399],
+                {}
+            ).addTo(map_59b3a40ca97f681f431de6d2d5d819ae);
+        
+    
+            marker_8661752b7541d83dbf362f2414d51c07.bindTooltip(
+                `<div>
+                     Stop ID: 99900
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f9b038f936a761bb42cf93f870628274 = L.marker(
+                [47.702662, -122.32832],
+                {}
+            ).addTo(map_59b3a40ca97f681f431de6d2d5d819ae);
+        
+    
+            marker_f9b038f936a761bb42cf93f870628274.bindTooltip(
+                `<div>
+                     Stop ID: 990005
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_a5f3740b97d37623f3725a3d08eb426e = L.polyline(
+                [[47.464272, -122.288399], [47.702662, -122.32832]],
+                {"bubblingMouseEvents": true, "color": "#0878b5", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#0878b5", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_59b3a40ca97f681f431de6d2d5d819ae);
+        
+    
+            poly_line_a5f3740b97d37623f3725a3d08eb426e.bindTooltip(
+                `<div>
+                     Card ID: 3200677
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8aba50b0bca8ed6de246b037d21635dc = L.marker(
+                [47.591824, -122.327354],
+                {}
+            ).addTo(map_59b3a40ca97f681f431de6d2d5d819ae);
+        
+    
+            marker_8aba50b0bca8ed6de246b037d21635dc.bindTooltip(
+                `<div>
+                     Stop ID: 99101
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3edf336423c61c866832cfee8435985b = L.marker(
+                [47.423122, -122.297615],
+                {}
+            ).addTo(map_59b3a40ca97f681f431de6d2d5d819ae);
+        
+    
+            marker_3edf336423c61c866832cfee8435985b.bindTooltip(
+                `<div>
+                     Stop ID: 99913
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_81b3252d21c44e8c58bf0cab8eca0894 = L.polyline(
+                [[47.591824, -122.327354], [47.423122, -122.297615]],
+                {"bubblingMouseEvents": true, "color": "#9ca03d", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#9ca03d", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_59b3a40ca97f681f431de6d2d5d819ae);
+        
+    
+            poly_line_81b3252d21c44e8c58bf0cab8eca0894.bindTooltip(
+                `<div>
+                     Card ID: 3200746
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
+</html>
