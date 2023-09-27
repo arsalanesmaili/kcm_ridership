@@ -1,0 +1,1315 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_9e80a65be198cde43128d9b0d4109405 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_9e80a65be198cde43128d9b0d4109405" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_9e80a65be198cde43128d9b0d4109405 = L.map(
+                "map_9e80a65be198cde43128d9b0d4109405",
+                {
+                    center: [47.523868, -122.278888],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 12,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_af59beb40c77feef6b630aa38eaad6ff = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca target=\"_blank\" href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_9e80a65be198cde43128d9b0d4109405);
+        
+    
+            var marker_9185ffa4d64e7be1847bb7e4b5b18545 = L.marker(
+                [47.560626, -122.293461],
+                {}
+            ).addTo(map_9e80a65be198cde43128d9b0d4109405);
+        
+    
+            marker_9185ffa4d64e7be1847bb7e4b5b18545.bindTooltip(
+                `<div>
+                     Stop ID: 56031
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b79855c1e32d0f48ba742c92d913253e = L.marker(
+                [47.560626, -122.293461],
+                {}
+            ).addTo(map_9e80a65be198cde43128d9b0d4109405);
+        
+    
+            marker_b79855c1e32d0f48ba742c92d913253e.bindTooltip(
+                `<div>
+                     Stop ID: 56031
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1ac61fa0d4e20dc0e39653bf7a14e6e5 = L.marker(
+                [47.56028, -122.292892],
+                {}
+            ).addTo(map_9e80a65be198cde43128d9b0d4109405);
+        
+    
+            marker_1ac61fa0d4e20dc0e39653bf7a14e6e5.bindTooltip(
+                `<div>
+                     Stop ID: 55778
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_747c720fbcd804e2c737e08f4f94482d = L.polyline(
+                [[47.560626, -122.293461], [47.56028, -122.292892]],
+                {"bubblingMouseEvents": true, "color": "#c17fa7", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#c17fa7", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_9e80a65be198cde43128d9b0d4109405);
+        
+    
+            poly_line_747c720fbcd804e2c737e08f4f94482d.bindTooltip(
+                `<div>
+                     Route number: 106
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c751e86298ffdd6a30500018ccffee70 = L.marker(
+                [47.56028, -122.292892],
+                {}
+            ).addTo(map_9e80a65be198cde43128d9b0d4109405);
+        
+    
+            marker_c751e86298ffdd6a30500018ccffee70.bindTooltip(
+                `<div>
+                     Stop ID: 55778
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_6902bbd936a0203ef2d48910b4f0311f = L.polyline(
+                [[47.56028, -122.292892], [47.56028, -122.292892]],
+                {"bubblingMouseEvents": true, "color": "#c17fa7", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#c17fa7", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_9e80a65be198cde43128d9b0d4109405);
+        
+    
+            poly_line_6902bbd936a0203ef2d48910b4f0311f.bindTooltip(
+                `<div>
+                     Route number: 100479
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_066c88c5d48bdb76026d949423dab00a = L.marker(
+                [47.52088, -122.269938],
+                {}
+            ).addTo(map_9e80a65be198cde43128d9b0d4109405);
+        
+    
+            marker_066c88c5d48bdb76026d949423dab00a.bindTooltip(
+                `<div>
+                     Stop ID: 8080
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2081d8943750f57d13b8af607100561d = L.marker(
+                [47.52088, -122.269938],
+                {}
+            ).addTo(map_9e80a65be198cde43128d9b0d4109405);
+        
+    
+            marker_2081d8943750f57d13b8af607100561d.bindTooltip(
+                `<div>
+                     Stop ID: 8080
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_850e8bbd6199e8efffd3a0c6795dacc8 = L.marker(
+                [47.560408, -122.293326],
+                {}
+            ).addTo(map_9e80a65be198cde43128d9b0d4109405);
+        
+    
+            marker_850e8bbd6199e8efffd3a0c6795dacc8.bindTooltip(
+                `<div>
+                     Stop ID: 56031
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_5ce6d23dca0df0903fb70f1a71ffda24 = L.polyline(
+                [[47.52088, -122.269938], [47.560408, -122.293326]],
+                {"bubblingMouseEvents": true, "color": "#c17fa7", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#c17fa7", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_9e80a65be198cde43128d9b0d4109405);
+        
+    
+            poly_line_5ce6d23dca0df0903fb70f1a71ffda24.bindTooltip(
+                `<div>
+                     Route number: 107
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_624927ea8055e519788a38be4dc18d75 = L.marker(
+                [47.523668, -122.278965],
+                {}
+            ).addTo(map_9e80a65be198cde43128d9b0d4109405);
+        
+    
+            marker_624927ea8055e519788a38be4dc18d75.bindTooltip(
+                `<div>
+                     Stop ID: 55583
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_cd45f8ac7262c64de517e2cc358359e1 = L.marker(
+                [47.52088, -122.269938],
+                {}
+            ).addTo(map_9e80a65be198cde43128d9b0d4109405);
+        
+    
+            marker_cd45f8ac7262c64de517e2cc358359e1.bindTooltip(
+                `<div>
+                     Stop ID: 8080
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_662fff0a1c51c35b94335d0ae9a362e9 = L.polyline(
+                [[47.523668, -122.278965], [47.52088, -122.269938]],
+                {"bubblingMouseEvents": true, "color": "#c17fa7", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#c17fa7", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_9e80a65be198cde43128d9b0d4109405);
+        
+    
+            poly_line_662fff0a1c51c35b94335d0ae9a362e9.bindTooltip(
+                `<div>
+                     Route number: 106
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d54db33d5890c33ac845f3065afdd57a = L.marker(
+                [47.521146, -122.26995],
+                {}
+            ).addTo(map_9e80a65be198cde43128d9b0d4109405);
+        
+    
+            marker_d54db33d5890c33ac845f3065afdd57a.bindTooltip(
+                `<div>
+                     Stop ID: 8080
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_61866aa008998299c47f3c49f29767ec = L.marker(
+                [47.521146, -122.26995],
+                {}
+            ).addTo(map_9e80a65be198cde43128d9b0d4109405);
+        
+    
+            marker_61866aa008998299c47f3c49f29767ec.bindTooltip(
+                `<div>
+                     Stop ID: 8080
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_751bc19cfcd3b4f0a94097f612d22998 = L.marker(
+                [47.562341, -122.294555],
+                {}
+            ).addTo(map_9e80a65be198cde43128d9b0d4109405);
+        
+    
+            marker_751bc19cfcd3b4f0a94097f612d22998.bindTooltip(
+                `<div>
+                     Stop ID: 56021
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_aa1c3e0cd24acaa257421bc84d607713 = L.polyline(
+                [[47.521146, -122.26995], [47.562341, -122.294555]],
+                {"bubblingMouseEvents": true, "color": "#c17fa7", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#c17fa7", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_9e80a65be198cde43128d9b0d4109405);
+        
+    
+            poly_line_aa1c3e0cd24acaa257421bc84d607713.bindTooltip(
+                `<div>
+                     Route number: 7
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b4a8a3973429ac89c709ac393547fcdb = L.marker(
+                [47.564061, -122.288196],
+                {}
+            ).addTo(map_9e80a65be198cde43128d9b0d4109405);
+        
+    
+            marker_b4a8a3973429ac89c709ac393547fcdb.bindTooltip(
+                `<div>
+                     Stop ID: 8760
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e247a08c0580dbc8d83aef05fcc3fc54 = L.marker(
+                [47.521146, -122.26995],
+                {}
+            ).addTo(map_9e80a65be198cde43128d9b0d4109405);
+        
+    
+            marker_e247a08c0580dbc8d83aef05fcc3fc54.bindTooltip(
+                `<div>
+                     Stop ID: 8080
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_12a6f5e6bc5bf3046ec8f9bed33a3b8a = L.polyline(
+                [[47.564061, -122.288196], [47.521146, -122.26995]],
+                {"bubblingMouseEvents": true, "color": "#c17fa7", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#c17fa7", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_9e80a65be198cde43128d9b0d4109405);
+        
+    
+            poly_line_12a6f5e6bc5bf3046ec8f9bed33a3b8a.bindTooltip(
+                `<div>
+                     Route number: 50
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_239b27dd0c368a03c18bdab79c35741f = L.marker(
+                [47.56028, -122.292892],
+                {}
+            ).addTo(map_9e80a65be198cde43128d9b0d4109405);
+        
+    
+            marker_239b27dd0c368a03c18bdab79c35741f.bindTooltip(
+                `<div>
+                     Stop ID: 55778
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d783f1ce0e755b533b9a468834cfbea8 = L.marker(
+                [47.563736, -122.28825],
+                {}
+            ).addTo(map_9e80a65be198cde43128d9b0d4109405);
+        
+    
+            marker_d783f1ce0e755b533b9a468834cfbea8.bindTooltip(
+                `<div>
+                     Stop ID: 8760
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_6a76795ba41db73149fd916293cb85b3 = L.polyline(
+                [[47.56028, -122.292892], [47.563736, -122.28825]],
+                {"bubblingMouseEvents": true, "color": "#c17fa7", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#c17fa7", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_9e80a65be198cde43128d9b0d4109405);
+        
+    
+            poly_line_6a76795ba41db73149fd916293cb85b3.bindTooltip(
+                `<div>
+                     Route number: 100479
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e2a02442c86015a3c056b94112f09307 = L.marker(
+                [47.56028, -122.292892],
+                {}
+            ).addTo(map_9e80a65be198cde43128d9b0d4109405);
+        
+    
+            marker_e2a02442c86015a3c056b94112f09307.bindTooltip(
+                `<div>
+                     Stop ID: 55778
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4224115ae638c2def5fe608a1db9b5ba = L.marker(
+                [47.521006, -122.269921],
+                {}
+            ).addTo(map_9e80a65be198cde43128d9b0d4109405);
+        
+    
+            marker_4224115ae638c2def5fe608a1db9b5ba.bindTooltip(
+                `<div>
+                     Stop ID: 8080
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_d81c4db5e54b49112e883c762edb85de = L.polyline(
+                [[47.56028, -122.292892], [47.521006, -122.269921]],
+                {"bubblingMouseEvents": true, "color": "#c17fa7", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#c17fa7", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_9e80a65be198cde43128d9b0d4109405);
+        
+    
+            poly_line_d81c4db5e54b49112e883c762edb85de.bindTooltip(
+                `<div>
+                     Route number: 100479
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_064fdd99f69048888de0c2ad313b303d = L.marker(
+                [47.56028, -122.292892],
+                {}
+            ).addTo(map_9e80a65be198cde43128d9b0d4109405);
+        
+    
+            marker_064fdd99f69048888de0c2ad313b303d.bindTooltip(
+                `<div>
+                     Stop ID: 55778
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_496b28ba7443294520edf8e8152d6e6c = L.marker(
+                [47.520793, -122.269933],
+                {}
+            ).addTo(map_9e80a65be198cde43128d9b0d4109405);
+        
+    
+            marker_496b28ba7443294520edf8e8152d6e6c.bindTooltip(
+                `<div>
+                     Stop ID: 8080
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_201ba9a3026b148e458059e52ce0cb6f = L.marker(
+                [47.520793, -122.269933],
+                {}
+            ).addTo(map_9e80a65be198cde43128d9b0d4109405);
+        
+    
+            marker_201ba9a3026b148e458059e52ce0cb6f.bindTooltip(
+                `<div>
+                     Stop ID: 8080
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_09c0562c977cadcfbaabccccee7e8efe = L.marker(
+                [47.563003, -122.294935],
+                {}
+            ).addTo(map_9e80a65be198cde43128d9b0d4109405);
+        
+    
+            marker_09c0562c977cadcfbaabccccee7e8efe.bindTooltip(
+                `<div>
+                     Stop ID: 56021
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_05a4b47193db11e50dc41431304a7cf8 = L.polyline(
+                [[47.520793, -122.269933], [47.563003, -122.294935]],
+                {"bubblingMouseEvents": true, "color": "#c17fa7", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#c17fa7", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_9e80a65be198cde43128d9b0d4109405);
+        
+    
+            poly_line_05a4b47193db11e50dc41431304a7cf8.bindTooltip(
+                `<div>
+                     Route number: 106
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_52b8bc1f14f75bec3428b6ed6867de1c = L.marker(
+                [47.520793, -122.269933],
+                {}
+            ).addTo(map_9e80a65be198cde43128d9b0d4109405);
+        
+    
+            marker_52b8bc1f14f75bec3428b6ed6867de1c.bindTooltip(
+                `<div>
+                     Stop ID: 8080
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_26e5c78843f5a567ac00ef39462ae6d9 = L.polyline(
+                [[47.56028, -122.292892], [47.520793, -122.269933]],
+                {"bubblingMouseEvents": true, "color": "#c17fa7", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#c17fa7", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_9e80a65be198cde43128d9b0d4109405);
+        
+    
+            poly_line_26e5c78843f5a567ac00ef39462ae6d9.bindTooltip(
+                `<div>
+                     Route number: 100479
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2126b022f22c0f7b6ae7ed2c87d585d4 = L.marker(
+                [47.577578, -122.296983],
+                {}
+            ).addTo(map_9e80a65be198cde43128d9b0d4109405);
+        
+    
+            marker_2126b022f22c0f7b6ae7ed2c87d585d4.bindTooltip(
+                `<div>
+                     Stop ID: 8402
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_61af96976dde35e1c443d94a572422a9 = L.marker(
+                [47.56028, -122.292892],
+                {}
+            ).addTo(map_9e80a65be198cde43128d9b0d4109405);
+        
+    
+            marker_61af96976dde35e1c443d94a572422a9.bindTooltip(
+                `<div>
+                     Stop ID: 55778
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_d5b5b1e40fae1b1245df238ffaf5c3b7 = L.polyline(
+                [[47.577578, -122.296983], [47.56028, -122.292892]],
+                {"bubblingMouseEvents": true, "color": "#c17fa7", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#c17fa7", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_9e80a65be198cde43128d9b0d4109405);
+        
+    
+            poly_line_d5b5b1e40fae1b1245df238ffaf5c3b7.bindTooltip(
+                `<div>
+                     Route number: 48
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b1008ba9633709c518bcbb78ab999a36 = L.marker(
+                [47.584131, -122.30268],
+                {}
+            ).addTo(map_9e80a65be198cde43128d9b0d4109405);
+        
+    
+            marker_b1008ba9633709c518bcbb78ab999a36.bindTooltip(
+                `<div>
+                     Stop ID: 8641
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_69cbce8a05ac702c97b016d7ae902749 = L.marker(
+                [47.577578, -122.296983],
+                {}
+            ).addTo(map_9e80a65be198cde43128d9b0d4109405);
+        
+    
+            marker_69cbce8a05ac702c97b016d7ae902749.bindTooltip(
+                `<div>
+                     Stop ID: 8402
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_81e7c0f44af1e22256f43cd4d0a613c6 = L.polyline(
+                [[47.584131, -122.30268], [47.577578, -122.296983]],
+                {"bubblingMouseEvents": true, "color": "#c17fa7", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#c17fa7", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_9e80a65be198cde43128d9b0d4109405);
+        
+    
+            poly_line_81e7c0f44af1e22256f43cd4d0a613c6.bindTooltip(
+                `<div>
+                     Route number: 106
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1727ded442f7b5fa017e398d04cefdd8 = L.marker(
+                [47.562386, -122.294566],
+                {}
+            ).addTo(map_9e80a65be198cde43128d9b0d4109405);
+        
+    
+            marker_1727ded442f7b5fa017e398d04cefdd8.bindTooltip(
+                `<div>
+                     Stop ID: 56021
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3f2ee0dba25255ff97e30e4e0fbcde47 = L.marker(
+                [47.562386, -122.294566],
+                {}
+            ).addTo(map_9e80a65be198cde43128d9b0d4109405);
+        
+    
+            marker_3f2ee0dba25255ff97e30e4e0fbcde47.bindTooltip(
+                `<div>
+                     Stop ID: 56021
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_edb24847271e71bea96f96c809916b29 = L.marker(
+                [47.56266, -122.294675],
+                {}
+            ).addTo(map_9e80a65be198cde43128d9b0d4109405);
+        
+    
+            marker_edb24847271e71bea96f96c809916b29.bindTooltip(
+                `<div>
+                     Stop ID: 56021
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_3aa77ec182639255d0601a33228fa4d8 = L.polyline(
+                [[47.562386, -122.294566], [47.56266, -122.294675]],
+                {"bubblingMouseEvents": true, "color": "#c17fa7", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#c17fa7", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_9e80a65be198cde43128d9b0d4109405);
+        
+    
+            poly_line_3aa77ec182639255d0601a33228fa4d8.bindTooltip(
+                `<div>
+                     Route number: 106
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6fffbd256928fa53c64edb240ee9221a = L.marker(
+                [47.577523, -122.296571],
+                {}
+            ).addTo(map_9e80a65be198cde43128d9b0d4109405);
+        
+    
+            marker_6fffbd256928fa53c64edb240ee9221a.bindTooltip(
+                `<div>
+                     Stop ID: 8402
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_de355bb27f522436e00ec9f2dd3acdef = L.marker(
+                [47.562386, -122.294566],
+                {}
+            ).addTo(map_9e80a65be198cde43128d9b0d4109405);
+        
+    
+            marker_de355bb27f522436e00ec9f2dd3acdef.bindTooltip(
+                `<div>
+                     Stop ID: 56021
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_4b034041b603f5cad6e3e6898261c598 = L.polyline(
+                [[47.577523, -122.296571], [47.562386, -122.294566]],
+                {"bubblingMouseEvents": true, "color": "#c17fa7", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#c17fa7", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_9e80a65be198cde43128d9b0d4109405);
+        
+    
+            poly_line_4b034041b603f5cad6e3e6898261c598.bindTooltip(
+                `<div>
+                     Route number: 48
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_bab53420ece54dde7d9fa1d4505f88e2 = L.marker(
+                [47.599103, -122.302296],
+                {}
+            ).addTo(map_9e80a65be198cde43128d9b0d4109405);
+        
+    
+            marker_bab53420ece54dde7d9fa1d4505f88e2.bindTooltip(
+                `<div>
+                     Stop ID: 12640
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_209eeac81ecdca13f2bada1f3194b0e9 = L.marker(
+                [47.577523, -122.296571],
+                {}
+            ).addTo(map_9e80a65be198cde43128d9b0d4109405);
+        
+    
+            marker_209eeac81ecdca13f2bada1f3194b0e9.bindTooltip(
+                `<div>
+                     Stop ID: 8402
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_3cda8ab52c1fa989653568e0fca716e7 = L.polyline(
+                [[47.599103, -122.302296], [47.577523, -122.296571]],
+                {"bubblingMouseEvents": true, "color": "#c17fa7", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#c17fa7", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_9e80a65be198cde43128d9b0d4109405);
+        
+    
+            poly_line_3cda8ab52c1fa989653568e0fca716e7.bindTooltip(
+                `<div>
+                     Route number: 48
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_03381ed7d33e98d881ebffb709d8ee6b = L.marker(
+                [47.53845, -122.282003],
+                {}
+            ).addTo(map_9e80a65be198cde43128d9b0d4109405);
+        
+    
+            marker_03381ed7d33e98d881ebffb709d8ee6b.bindTooltip(
+                `<div>
+                     Stop ID: 56151
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4905423b645813d591819b8a1ce9dc37 = L.marker(
+                [47.56028, -122.292892],
+                {}
+            ).addTo(map_9e80a65be198cde43128d9b0d4109405);
+        
+    
+            marker_4905423b645813d591819b8a1ce9dc37.bindTooltip(
+                `<div>
+                     Stop ID: 55778
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_9235914c4a0c9aa4be652d9dd9ea435b = L.polyline(
+                [[47.53845, -122.282003], [47.56028, -122.292892]],
+                {"bubblingMouseEvents": true, "color": "#c17fa7", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#c17fa7", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_9e80a65be198cde43128d9b0d4109405);
+        
+    
+            poly_line_9235914c4a0c9aa4be652d9dd9ea435b.bindTooltip(
+                `<div>
+                     Route number: 106
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_20b7c7f3f899f193c8eeb1a87d60ba5d = L.marker(
+                [47.521145, -122.269923],
+                {}
+            ).addTo(map_9e80a65be198cde43128d9b0d4109405);
+        
+    
+            marker_20b7c7f3f899f193c8eeb1a87d60ba5d.bindTooltip(
+                `<div>
+                     Stop ID: 8080
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_66e14f5576b8773c1be2b672457fc6b8 = L.marker(
+                [47.53845, -122.282003],
+                {}
+            ).addTo(map_9e80a65be198cde43128d9b0d4109405);
+        
+    
+            marker_66e14f5576b8773c1be2b672457fc6b8.bindTooltip(
+                `<div>
+                     Stop ID: 56151
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_34e2e58c118f7cdffa01b4072ac5df47 = L.polyline(
+                [[47.521145, -122.269923], [47.53845, -122.282003]],
+                {"bubblingMouseEvents": true, "color": "#c17fa7", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#c17fa7", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_9e80a65be198cde43128d9b0d4109405);
+        
+    
+            poly_line_34e2e58c118f7cdffa01b4072ac5df47.bindTooltip(
+                `<div>
+                     Route number: 106
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_56c0d6723bbbe60725e626315779ff62 = L.marker(
+                [47.538502, -122.281693],
+                {}
+            ).addTo(map_9e80a65be198cde43128d9b0d4109405);
+        
+    
+            marker_56c0d6723bbbe60725e626315779ff62.bindTooltip(
+                `<div>
+                     Stop ID: 55656
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_0bdbf7763beac303056b42031898278c = L.marker(
+                [47.538502, -122.281693],
+                {}
+            ).addTo(map_9e80a65be198cde43128d9b0d4109405);
+        
+    
+            marker_0bdbf7763beac303056b42031898278c.bindTooltip(
+                `<div>
+                     Stop ID: 55656
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7c866829446fcef54a856a6e11e15dfc = L.marker(
+                [47.560665, -122.293521],
+                {}
+            ).addTo(map_9e80a65be198cde43128d9b0d4109405);
+        
+    
+            marker_7c866829446fcef54a856a6e11e15dfc.bindTooltip(
+                `<div>
+                     Stop ID: 56031
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_367bb504249f167abe647930914c09e4 = L.polyline(
+                [[47.538502, -122.281693], [47.560665, -122.293521]],
+                {"bubblingMouseEvents": true, "color": "#c17fa7", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#c17fa7", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_9e80a65be198cde43128d9b0d4109405);
+        
+    
+            poly_line_367bb504249f167abe647930914c09e4.bindTooltip(
+                `<div>
+                     Route number: 100479
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_389e32af97ae51f9c00da705e013cbf4 = L.marker(
+                [47.57759, -122.296891],
+                {}
+            ).addTo(map_9e80a65be198cde43128d9b0d4109405);
+        
+    
+            marker_389e32af97ae51f9c00da705e013cbf4.bindTooltip(
+                `<div>
+                     Stop ID: 8402
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_994e00cffa98d35ece6a00f204179803 = L.marker(
+                [47.538502, -122.281693],
+                {}
+            ).addTo(map_9e80a65be198cde43128d9b0d4109405);
+        
+    
+            marker_994e00cffa98d35ece6a00f204179803.bindTooltip(
+                `<div>
+                     Stop ID: 55656
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_db8f7940806d911f6e3c8a996798a926 = L.polyline(
+                [[47.57759, -122.296891], [47.538502, -122.281693]],
+                {"bubblingMouseEvents": true, "color": "#c17fa7", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#c17fa7", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_9e80a65be198cde43128d9b0d4109405);
+        
+    
+            poly_line_db8f7940806d911f6e3c8a996798a926.bindTooltip(
+                `<div>
+                     Route number: 8
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4b391c678b816c94499d7cd90cc6f46c = L.marker(
+                [47.59923, -122.301736],
+                {}
+            ).addTo(map_9e80a65be198cde43128d9b0d4109405);
+        
+    
+            marker_4b391c678b816c94499d7cd90cc6f46c.bindTooltip(
+                `<div>
+                     Stop ID: 12010
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_844b9861e90bea27a10429605a44ca20 = L.marker(
+                [47.57759, -122.296891],
+                {}
+            ).addTo(map_9e80a65be198cde43128d9b0d4109405);
+        
+    
+            marker_844b9861e90bea27a10429605a44ca20.bindTooltip(
+                `<div>
+                     Stop ID: 8402
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_b987ad6783d1a76e2282f06a0f998cdc = L.polyline(
+                [[47.59923, -122.301736], [47.57759, -122.296891]],
+                {"bubblingMouseEvents": true, "color": "#c17fa7", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#c17fa7", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_9e80a65be198cde43128d9b0d4109405);
+        
+    
+            poly_line_b987ad6783d1a76e2282f06a0f998cdc.bindTooltip(
+                `<div>
+                     Route number: 8
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_61d736259e2f2227c8ba96ab5c117ec8 = L.marker(
+                [47.539301, -122.282043],
+                {}
+            ).addTo(map_9e80a65be198cde43128d9b0d4109405);
+        
+    
+            marker_61d736259e2f2227c8ba96ab5c117ec8.bindTooltip(
+                `<div>
+                     Stop ID: 55661
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_eda7f43cd5e160475f27e3d65786ea8f = L.marker(
+                [47.59923, -122.301736],
+                {}
+            ).addTo(map_9e80a65be198cde43128d9b0d4109405);
+        
+    
+            marker_eda7f43cd5e160475f27e3d65786ea8f.bindTooltip(
+                `<div>
+                     Stop ID: 12010
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_cd34a962f83dbf54d21f32c1eab28938 = L.polyline(
+                [[47.539301, -122.282043], [47.59923, -122.301736]],
+                {"bubblingMouseEvents": true, "color": "#c17fa7", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#c17fa7", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_9e80a65be198cde43128d9b0d4109405);
+        
+    
+            poly_line_cd34a962f83dbf54d21f32c1eab28938.bindTooltip(
+                `<div>
+                     Route number: 106
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_88d3f57c30a13c883c44365e0fdf96d2 = L.marker(
+                [47.564083, -122.288248],
+                {}
+            ).addTo(map_9e80a65be198cde43128d9b0d4109405);
+        
+    
+            marker_88d3f57c30a13c883c44365e0fdf96d2.bindTooltip(
+                `<div>
+                     Stop ID: 8760
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_50df0e795627aad64814a3dccd4aa85c = L.marker(
+                [47.564083, -122.288248],
+                {}
+            ).addTo(map_9e80a65be198cde43128d9b0d4109405);
+        
+    
+            marker_50df0e795627aad64814a3dccd4aa85c.bindTooltip(
+                `<div>
+                     Stop ID: 8760
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_33478ad1194871cc2f872fd00d23be64 = L.marker(
+                [47.539053, -122.281881],
+                {}
+            ).addTo(map_9e80a65be198cde43128d9b0d4109405);
+        
+    
+            marker_33478ad1194871cc2f872fd00d23be64.bindTooltip(
+                `<div>
+                     Stop ID: 55661
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_c93708311d9000b5446c06e05c808e4a = L.polyline(
+                [[47.564083, -122.288248], [47.539053, -122.281881]],
+                {"bubblingMouseEvents": true, "color": "#c17fa7", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#c17fa7", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_9e80a65be198cde43128d9b0d4109405);
+        
+    
+            poly_line_c93708311d9000b5446c06e05c808e4a.bindTooltip(
+                `<div>
+                     Route number: 50
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_cd05cc04e719d5edcc6124ad153fd642 = L.marker(
+                [47.523373, -122.275988],
+                {}
+            ).addTo(map_9e80a65be198cde43128d9b0d4109405);
+        
+    
+            marker_cd05cc04e719d5edcc6124ad153fd642.bindTooltip(
+                `<div>
+                     Stop ID: 30160
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1c2b25e98a8c79c7cd9ff98297d49787 = L.marker(
+                [47.523373, -122.275988],
+                {}
+            ).addTo(map_9e80a65be198cde43128d9b0d4109405);
+        
+    
+            marker_1c2b25e98a8c79c7cd9ff98297d49787.bindTooltip(
+                `<div>
+                     Stop ID: 30160
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_28f1b8b5a509bac61bdebde09bc0f957 = L.marker(
+                [47.52107, -122.26992],
+                {}
+            ).addTo(map_9e80a65be198cde43128d9b0d4109405);
+        
+    
+            marker_28f1b8b5a509bac61bdebde09bc0f957.bindTooltip(
+                `<div>
+                     Stop ID: 8080
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_d381e52baf48b283dfa8cb3bf82245a6 = L.polyline(
+                [[47.523373, -122.275988], [47.52107, -122.26992]],
+                {"bubblingMouseEvents": true, "color": "#c17fa7", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#c17fa7", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_9e80a65be198cde43128d9b0d4109405);
+        
+    
+            poly_line_d381e52baf48b283dfa8cb3bf82245a6.bindTooltip(
+                `<div>
+                     Route number: 106
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_19b58633d22cf1417264edd7a5137209 = L.marker(
+                [47.560558, -122.293463],
+                {}
+            ).addTo(map_9e80a65be198cde43128d9b0d4109405);
+        
+    
+            marker_19b58633d22cf1417264edd7a5137209.bindTooltip(
+                `<div>
+                     Stop ID: 56031
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7b31afcb1a236aad5bae7c240e7d4bca = L.marker(
+                [47.523373, -122.275988],
+                {}
+            ).addTo(map_9e80a65be198cde43128d9b0d4109405);
+        
+    
+            marker_7b31afcb1a236aad5bae7c240e7d4bca.bindTooltip(
+                `<div>
+                     Stop ID: 30160
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_1ddf612e1d2ca817f3425fd2c35bc224 = L.polyline(
+                [[47.560558, -122.293463], [47.523373, -122.275988]],
+                {"bubblingMouseEvents": true, "color": "#c17fa7", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#c17fa7", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_9e80a65be198cde43128d9b0d4109405);
+        
+    
+            poly_line_1ddf612e1d2ca817f3425fd2c35bc224.bindTooltip(
+                `<div>
+                     Route number: 106
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_29ffc8eba7081dba0b26e4e2d0e52998 = L.marker(
+                [47.539026, -122.281886],
+                {}
+            ).addTo(map_9e80a65be198cde43128d9b0d4109405);
+        
+    
+            marker_29ffc8eba7081dba0b26e4e2d0e52998.bindTooltip(
+                `<div>
+                     Stop ID: 55661
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d5cb5df836a838b19ac6afca87bc8a67 = L.marker(
+                [47.560558, -122.293463],
+                {}
+            ).addTo(map_9e80a65be198cde43128d9b0d4109405);
+        
+    
+            marker_d5cb5df836a838b19ac6afca87bc8a67.bindTooltip(
+                `<div>
+                     Stop ID: 56031
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_e8b135dee818bedd442fe5a425fae21f = L.polyline(
+                [[47.539026, -122.281886], [47.560558, -122.293463]],
+                {"bubblingMouseEvents": true, "color": "#c17fa7", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#c17fa7", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_9e80a65be198cde43128d9b0d4109405);
+        
+    
+            poly_line_e8b135dee818bedd442fe5a425fae21f.bindTooltip(
+                `<div>
+                     Route number: 106
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1e2d827c25f143a19d60fde9e5f20148 = L.marker(
+                [47.562776, -122.294808],
+                {}
+            ).addTo(map_9e80a65be198cde43128d9b0d4109405);
+        
+    
+            marker_1e2d827c25f143a19d60fde9e5f20148.bindTooltip(
+                `<div>
+                     Stop ID: 56021
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_0c9e810f121989a55dd6839b51e60e95 = L.marker(
+                [47.562776, -122.294808],
+                {}
+            ).addTo(map_9e80a65be198cde43128d9b0d4109405);
+        
+    
+            marker_0c9e810f121989a55dd6839b51e60e95.bindTooltip(
+                `<div>
+                     Stop ID: 56021
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_0cd8be673acbab32a776ec6cc1c49a61 = L.marker(
+                [47.561198, -122.293363],
+                {}
+            ).addTo(map_9e80a65be198cde43128d9b0d4109405);
+        
+    
+            marker_0cd8be673acbab32a776ec6cc1c49a61.bindTooltip(
+                `<div>
+                     Stop ID: 55780
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_80a18bdf430a5c7d9ba339e426e98a61 = L.polyline(
+                [[47.562776, -122.294808], [47.561198, -122.293363]],
+                {"bubblingMouseEvents": true, "color": "#c17fa7", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#c17fa7", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_9e80a65be198cde43128d9b0d4109405);
+        
+    
+            poly_line_80a18bdf430a5c7d9ba339e426e98a61.bindTooltip(
+                `<div>
+                     Route number: 106
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_386870a46c9b9aabadb86357f6dac56e = L.marker(
+                [47.539323, -122.282046],
+                {}
+            ).addTo(map_9e80a65be198cde43128d9b0d4109405);
+        
+    
+            marker_386870a46c9b9aabadb86357f6dac56e.bindTooltip(
+                `<div>
+                     Stop ID: 55661
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a03085089ec7e6c063b956521a71b812 = L.marker(
+                [47.562776, -122.294808],
+                {}
+            ).addTo(map_9e80a65be198cde43128d9b0d4109405);
+        
+    
+            marker_a03085089ec7e6c063b956521a71b812.bindTooltip(
+                `<div>
+                     Stop ID: 56021
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_738e5de0725be399700867ddf385eec7 = L.polyline(
+                [[47.539323, -122.282046], [47.562776, -122.294808]],
+                {"bubblingMouseEvents": true, "color": "#c17fa7", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#c17fa7", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_9e80a65be198cde43128d9b0d4109405);
+        
+    
+            poly_line_738e5de0725be399700867ddf385eec7.bindTooltip(
+                `<div>
+                     Route number: 106
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
+</html>
